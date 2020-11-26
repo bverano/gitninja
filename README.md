@@ -76,3 +76,7 @@ How to use Github?
 
 2. Push the repository to Github
    > git push \<aliasName\> \<branchName\>
+
+List aliases:
+
+> git remote -v
