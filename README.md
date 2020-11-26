@@ -67,3 +67,12 @@ What to do if there's a merge conflict?
 1. Edit the file where the conflict is
 2. Stage the changes
 3. Commit the changes without a message
+
+How to use Github?
+
+1. Set an alias for the Github Repository URL
+
+   > git remote add \<aliasName\> \<GithubURL\>
+
+2. Push the repository to Github
+   > git push \<aliasName\> \<branchName\>
