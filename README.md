@@ -12,7 +12,7 @@ Shows the repository state:
 
 Stage files:
 
-> git add \<filename\>
+> git add \<filename\>\
 > git add . (stage all unfollowed files )
 
 Commit files:
@@ -21,7 +21,7 @@ Commit files:
 
 Show all commits of the repository:
 
-> git log
+> git log\
 > git log --oneline (minified list)
 
 Check te code of an specific commit:
@@ -34,7 +34,7 @@ Revert the changes of one commit:
 
 Delete all commit after one selected commit:
 
-> git reset \<commitID\> (delete commits, but not the code)
+> git reset \<commitID\> (delete commits, but not the code)\
 > git reset \<commitID\> --hard (delete commits and the code)
 
 Create a branch:
@@ -51,7 +51,7 @@ Change current branch:
 
 Delete a branch:
 
-> git branch -d \<branchName\> (delete after merging the branch)
+> git branch -d \<branchName\> (delete after merging the branch)\
 > git branch -D \<branchName\> (delete without merging the branch)
 
 Create and checkout a brand new branch:
